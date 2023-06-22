@@ -1,5 +1,6 @@
 #!/bin/bash
 #this project creates a new user on local system 
+#this project creates a new user on remote system to test merge
 #you will be promted to enter user name(loogin) person name, and password
 #username password and hostname  will be displayed at the end of the project 
 #
