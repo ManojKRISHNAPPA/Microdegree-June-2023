@@ -1,0 +1,9 @@
+#!bin/bash
+#
+a="Shyamla"
+b="venni"
+c="Welcome to linus"
+#
+echo="My name is $a"
+echo="My surname is $b"
+echo="$c"
