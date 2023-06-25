@@ -1,5 +1,4 @@
-#!bin/bash
-#
+
 a="Shyamla"
 b="venni"
 c="Welcome to linus"
