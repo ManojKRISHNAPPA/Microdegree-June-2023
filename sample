@@ -1,8 +1,2 @@
-a=10
-echo $a
-b=10
-echo $b
-c=10
-echo $c
-echo "bindu"
-echo "hello"
+echo a=(1 2 3 4 5 6)
+echo ${a[1]}
