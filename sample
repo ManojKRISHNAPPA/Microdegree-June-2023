@@ -5,3 +5,4 @@ echo $b
 c=10
 echo $c
 echo "bindu"
+echo "hello"
