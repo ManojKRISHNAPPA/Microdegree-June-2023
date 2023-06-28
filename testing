@@ -1,0 +1,4 @@
+#!/bin/bash
+a=Uday
+b=Kumar  
+echo $a echo $b
