@@ -2,3 +2,5 @@ a=10
 echo $a
 b=10
 echo $b
+c=10
+echo $c
