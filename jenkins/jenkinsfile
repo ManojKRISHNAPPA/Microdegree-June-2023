@@ -1,5 +1,7 @@
 pipeline{
-agent any
+agent {
+	label 'SLAVE-1'
+}
         stages{
             stage('Build-System details'){
                 steps{
