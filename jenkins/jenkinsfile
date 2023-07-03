@@ -1,4 +1,4 @@
-pipeline {
+pipeline{
 agent any
         stages{ 
             stage('Build-systems details'){
@@ -6,7 +6,7 @@ agent any
             sh '''
                      echo "ip address"
             hostname -I
-               '''
+            '''
                }
             }
             stage('Todays date'){
@@ -14,7 +14,7 @@ agent any
             sh '''
                      echo "TODAYS DATE"
                      date
-               '''
+            '''
                }
             }
         }
