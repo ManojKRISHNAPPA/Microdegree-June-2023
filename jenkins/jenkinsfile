@@ -1,21 +1,11 @@
-pipeline{
-agent any
-        stages{ 
-            stage('Build-systems details'){
-               stages{
-            sh '''
-                     echo "ip address"
-            hostname -I
-            '''
-               }
-            }
-            stage('Todays date'){
-               stages{
-            sh '''
-                     echo "TODAYS DATE"
-                     date
-            '''
-               }
+pipeline {
+    agent any
+
+    stages {
+        stage('Hello') {
+            steps {
+                echo 'Hello World'
             }
         }
+    }
 }
