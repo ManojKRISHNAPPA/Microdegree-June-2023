@@ -1,12 +1,11 @@
-pipeline{
-agent any
-stages{
-stage('example'){
-steps{
-sh......
-echo 'hostname -I'
-........
+pipeline {
+    agent any
+    stages {
+        stage('Hello') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+    }
 }
-}
-}
-}
+
