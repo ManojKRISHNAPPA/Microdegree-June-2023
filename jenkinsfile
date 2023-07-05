@@ -3,7 +3,11 @@ pipeline {
     stages {
         stage('Hello') {
             steps {
+<<<<<<< HEAD
                 echo 'Hello globe'
+=======
+                echo 'Hello World globe'
+>>>>>>> 6df2002 (edited jenkins)
             }
         }
     }
