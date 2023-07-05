@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     stages {
-        stage('practice') {
+        stage('jenkins') {
             steps {
                 echo 'jenkins class '
             }
