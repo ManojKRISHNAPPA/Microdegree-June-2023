@@ -5,6 +5,7 @@ pipeline {
             steps {
                 echo 'Hello World from Jenkins'
                 echo 'HELLO DOCKERS'
+echo "LEARNER"
             }
         }
     }
