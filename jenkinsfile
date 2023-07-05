@@ -1,7 +1,5 @@
 pipeline{
-agent {
-	label 'SLAVE-1'
-}
+agent any
         stages{
             stage('Build-System details'){
                 steps{
@@ -15,7 +13,7 @@ agent {
                 steps{
 		    sh '''
                     echo "MEMORY DETAILS"
-                    df -kh 
+                    df -sch *
 		    '''
                 }
             }
