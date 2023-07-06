@@ -1,11 +1,9 @@
 pipeline {
     agent any
-
     stages {
         stage('jenkins') {
             steps {
                 echo 'jenkins class'
-                echo 'try for error free'
             }
         }
     }
