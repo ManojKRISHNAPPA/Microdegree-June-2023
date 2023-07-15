@@ -1,2 +1,12 @@
-a=(1 2 3 4 5 6)
-echo ${a[1]}
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nginx-2
+  labels:
+    env: production
+spec:
+  containers:
+  - name: nginx
+    image: nginx:1.14.2
+    ports:
+    - containerPort: 80
